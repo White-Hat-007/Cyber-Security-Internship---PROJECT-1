@@ -281,10 +281,32 @@ except Exception as e:
 
 ## ✅ Sample Output
 
+exfil_server.py Output Terminal
 ```bash
-[INFO] [2025-06-11 02:01:13] Received 238 bytes from 127.0.0.1
-[+] Exfiltrated: .syslogs/log_20250611_020112.bin
-[*] Kill switch detected.
+* Serving Flask app 'exfil_server'
+* Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://12.0.0.2:5000
+Press CTRL+C to quit
+127.0.0.1 - - [11/Jun/2025 16:37:40] "GET / HTTP/1.1" 200 -
+````
+
+logger.py Output Terminal
+```bash
+[+] Logger started. Listening for keystrokes...
+[+] Flushing and encrypting logs...
+[+] Exfiltrated .syslogs\log_20250611_163934.bin successfully.
+[*] Kill switch detected. Exiting.
 ```
 
+decrypt_log.py Output Terminal
+```bash
+Decrypted log content:
+[Key.caps_lock]elevateabsisthebest[Key.space][Key.space]
+[Key.caps_lock]levate[Key.caps_lock]l[Key.caps_lock]abs[Key.caps_lock]i
+[Key.caps_lock]s[Key.caps_lock]t[Key.caps_lock]he[Key.caps_lock]b[Key.caps_lock]e
+[Key.caps_lock]s[Key.caps_lock]t[Key.space][Key.caps_lock]d[Key.caps_lock]a[Key.caps_lock]r
+```
 ---
