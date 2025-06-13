@@ -309,4 +309,10 @@ Decrypted log content:
 [Key.caps_lock]s[Key.caps_lock]t[Key.caps_lock]he[Key.caps_lock]b[Key.caps_lock]e
 [Key.caps_lock]s[Key.caps_lock]t[Key.space][Key.caps_lock]d[Key.caps_lock]a[Key.caps_lock]r
 ```
+
+## 👨‍💻 Author
+
+**Darsh Chatrani**  
+🔗 [LinkedIn](https://linkedin.com/in/darshchatrani)
+
 ---
