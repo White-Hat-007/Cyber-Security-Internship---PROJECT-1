@@ -313,6 +313,7 @@ Decrypted log content:
 ## 👨‍💻 Author
 
 **Darsh Chatrani**  
-🔗 [LinkedIn](https://linkedin.com/in/darshchatrani)
+🔗 [LinkedIn](https://linkedin.com/in/darshchatrani)  
+📞 Contact: +91 97899 57123
 
 ---
